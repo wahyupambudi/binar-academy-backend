@@ -1,49 +1,39 @@
-// jika localstorage saldo nan maka set localstorage saldo 0
-if (isNaN(parseFloat(localStorage.getItem("saldo")))) {
-	saldo = localStorage.setItem("saldo", 0);
+// Definisi kelas BankAccount
+class BankAccount {
+  constructor() {
+    this.saldo = parseFloat(localStorage.getItem("saldo")) || 0;
+  }
+
+  tambahSaldo() {
+    const inputJumlah = parseFloat(prompt("Masukkan jumlah saldo yang ingin ditambahkan:"));
+    if (!isNaN(inputJumlah) && inputJumlah > 0) {
+      this.saldo += inputJumlah;
+      this.simpanSaldo();
+    } else {
+      alert("Masukkan jumlah saldo yang valid.");
+    }
+  }
+
+  kurangiSaldo() {
+    const inputPengurangan = parseFloat(prompt("Masukkan jumlah saldo yang ingin dikurangkan:"));
+    if (!isNaN(inputPengurangan) && inputPengurangan > 0 && inputPengurangan <= this.saldo) {
+      this.saldo -= inputPengurangan;
+      this.simpanSaldo();
+    } else {
+      alert("Masukkan jumlah saldo yang valid atau saldo tidak mencukupi.");
+    }
+  }
+
+  simpanSaldo() {
+    localStorage.setItem("saldo", this.saldo.toString());
+	document.location.reload();
+  }
 }
+
+// Membuat objek bank
+const bank = new BankAccount();
 
 // tampilkan di html.
 document.getElementById("saldo").innerHTML = new Intl.NumberFormat("id").format(
 	localStorage.getItem("saldo"),
 );
-
-class myBank {
-	constructor() {
-		this.saldo = 0;
-	}
-
-	tambahSaldo() {
-		const inputJumlah = parseFloat(prompt("Masukkan Jumlah Depo Saldo: "));
-		if (!isNaN(inputJumlah) && inputJumlah > 0) {
-			let sumSaldo =
-				parseFloat(localStorage.getItem("saldo")) + inputJumlah;
-			// simpan ke dalam localstorage
-			localStorage.setItem("saldo", sumSaldo);
-		} else {
-			alert("Input kan dengan format Angka");
-		}
-		// reload
-		document.location.reload();
-	}
-
-	kurangiSaldo() {
-		const inputKurang = parseFloat(
-			prompt("Masukkan Jumlah Withdraw Saldo: "),
-		);
-		let getSaldo = parseFloat(localStorage.getItem("saldo"));
-
-		if (getSaldo < inputKurang) {
-			alert("Tidak bisa ambil lebih dari total saldo");
-		} else if (!isNaN(inputKurang) && inputKurang > 0) {
-			let minSaldo = parseFloat(getSaldo - inputKurang);
-			// simpan ke dalam localstorage
-			localStorage.setItem("saldo", minSaldo);
-		} else {
-			alert("Input kan dengan format Angka");
-		}
-
-		// reload
-		document.location.reload();
-	}
-}
