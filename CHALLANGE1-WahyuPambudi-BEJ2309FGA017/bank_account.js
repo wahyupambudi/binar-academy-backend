@@ -12,6 +12,7 @@ class BankAccount {
     } else {
       alert("Masukkan jumlah saldo yang valid.");
     }
+    return;
   }
 
   kurangiSaldo() {
@@ -22,11 +23,13 @@ class BankAccount {
     } else {
       alert("Masukkan jumlah saldo yang valid atau saldo tidak mencukupi.");
     }
+    return;
   }
 
   simpanSaldo() {
     localStorage.setItem("saldo", this.saldo.toString());
 	document.location.reload();
+    return;
   }
 }
 
