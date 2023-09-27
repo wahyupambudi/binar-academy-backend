@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T14:41:06.045Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" version="21.3.6" etag="69P0fGCBoocDd5bzrHdu" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T14:50:36.349Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="olbdehgTlcygb0XL_tBh" version="21.3.6" type="github">
   <diagram name="Page-1" id="J4B8P1A5KnUWizSis2lt">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Sps9YLc_Hi31zZA8o0cC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sps9YLc_Hi31zZA8o0cC-1" target="Sps9YLc_Hi31zZA8o0cC-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sps9YLc_Hi31zZA8o0cC-1" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Sps9YLc_Hi31zZA8o0cC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sps9YLc_Hi31zZA8o0cC-10" target="Sps9YLc_Hi31zZA8o0cC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sps9YLc_Hi31zZA8o0cC-10" value="pi = 3.14" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Sps9YLc_Hi31zZA8o0cC-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sps9YLc_Hi31zZA8o0cC-13" target="Sps9YLc_Hi31zZA8o0cC-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sps9YLc_Hi31zZA8o0cC-13" value="input jari-jari" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="240" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sps9YLc_Hi31zZA8o0cC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sps9YLc_Hi31zZA8o0cC-14" target="Sps9YLc_Hi31zZA8o0cC-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sps9YLc_Hi31zZA8o0cC-14" value="&lt;div&gt;Hitung:&lt;/div&gt;&lt;div&gt;Keliling = 2 * pi * r&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sps9YLc_Hi31zZA8o0cC-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sps9YLc_Hi31zZA8o0cC-18" target="Sps9YLc_Hi31zZA8o0cC-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sps9YLc_Hi31zZA8o0cC-18" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Tampilkan Keliling Lingkaran&lt;br&gt;&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sps9YLc_Hi31zZA8o0cC-20" value="Selesai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="520" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
