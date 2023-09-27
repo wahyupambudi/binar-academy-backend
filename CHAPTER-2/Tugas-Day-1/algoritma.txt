@@ -1,0 +1,9 @@
+PROGRAM MENGHITUNG LUAS LINGKARAN
+
+ALGORITMA
+Tahap-1 : Mulai
+Tahap-2 : deklarasi variabel jari-jari (r)
+Tahap-3 : masukkan jari jari lingkaran
+Tahap-4 : hitung keliling lingkaran dengan rumus 2*phi*jari-jari
+Tahap-5 : tampilkan keliling lingkaran
+Tahap-6 : Selesai

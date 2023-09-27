@@ -1,0 +1,10 @@
+//PROGRAM keliling lingkaran
+//Program menghitung keliling lingkaran
+
+//Declaration
+Declare jari-jari
+
+//Implementation
+INPUT (jari-jari)
+SET keliling <- 2 * phi * jari-jari
+OUTPUT (keliling)
