@@ -1,0 +1,3 @@
+pseudocode : alur logic menggunakan teks atau kata-kata, 
+
+flowchart : alur logic, menggunakan visual atau shape/simbol. di berikan untuk project manajer, 

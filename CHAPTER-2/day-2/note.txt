@@ -1,0 +1,2 @@
+return => memeberhentikan  fungsi/scopenya aja mas
+throw => memeberhentikan suatu service atau layanan
