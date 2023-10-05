@@ -50,3 +50,14 @@ Apakah Aku Jalan Duluan
 9 kali jalan
 10 kali jalan
 */
+
+
+console.log('set interval');
+let num = 0;
+let resp = setInterval(() => {
+	console.log(`this runs this ${num += 1} times`)
+
+	if(num == 5) {
+		clearInterval(resp)
+	}
+}, 100)

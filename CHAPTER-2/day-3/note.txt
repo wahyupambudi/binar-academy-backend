@@ -1,1 +1,5 @@
 callback = sekedar function, tapi eksekusinya beda
+
+
+kapan pakai synchronous dan asynchronous
+- kalau banyak proses berikut berikutnya pakai yang synchronous
