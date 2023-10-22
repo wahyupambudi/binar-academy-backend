@@ -1,0 +1,1 @@
+Halo, ini baca test.txt menggunakan readsync
